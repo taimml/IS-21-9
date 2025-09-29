@@ -1,0 +1,58 @@
+body {
+    font-family: "Open Sans";
+    width: 1200px;
+    margin: auto;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ask-btn {
+    display: flex;
+    padding: 10px 20px;
+    color: white;
+    background-color: #33836E;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact {
+    display: block;
+}
+
+.phone-number {
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}
+
+.seacrh {
+    width: 427px;
+    border: none;
+    font-size: 16px;
+    background: rgba(47, 43, 67, 0.04);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none   ;
+}
+.menu-border {
+    border: 1px solid rgb(223, 223, 223);
+    padding: 10px;
+    border-radius: 10px;
+}
